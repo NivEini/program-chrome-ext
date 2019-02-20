@@ -43,10 +43,12 @@
 
         modal-header {
             align-items: center;
+            border-bottom: 0.5px solid #dadada;
         }
 
 
         .modal-icons {
+            border-top: 0.5px solid #dadada;
             height: 50px;
             width: 100%;
         }
@@ -95,29 +97,25 @@
             margin: 2px;
             color: white;
         }
-        .white {
-            color: #2f5876;
-            background-color:white;
-            border:1px solid black;
-        }
-        .footers {
-            font-size: 13px;
-        }
-
     </style>
 </head>
 
 <body>
     <h1>
-        <a href="popup.html"><p class="logo" style="padding-bottom: 0px;">Program Management</p></a>
+        <a href="popup.html">
+            <p class="logo" style="padding-bottom: 0px;">Program Management</p>
+        </a>
+        <div id="api"></div>
     </h1>
     <div class="d-flex flex-column-reverse bd-highlight">
-       <div class="p-2 bd-highlight center">CF Delivery</div>
+        <button>Check!</button>
+        <input type="text" placeholder="Insert BLI Link">
+        <div class="p-2 bd-highlight center">Jira BLI</div>
+
     </div>
-    <div>
-        <p class="description" style="padding-left:10px">Timeline <span class="description"
-                style="padding-left:20px">FOSS Page <span style="padding-left:40px">Sirius</span> </span><span
-                style="padding-left:50px">BCP</span></p>
+    <div class="modal-content">
+        <p class="description">Timeline <span class="description" style="padding-left:20px">FOSS Page <span
+                    style="padding-left:30px">Sirius</span> </span><span style="padding-left:50px">BCP</span></p>
     </div>
     <div class="modal-icons">
         <div class="flex-container">
@@ -130,24 +128,25 @@
 
                 <a href="https://wiki.wdf.sap.corp/wiki/display/CPPortals/Free+Open+Source+%28FOSS%29+Process"
                     target="_blank">
-                    <i class="fab fa-osi fa-3x"></i>
+                    <i class="fab fa-osi fa-3x p-0"></i>
                 </a>
             </div>
             <div class="flex">
                 <a href="https://ifp.wdf.sap.corp/sirius/index.html#/program/2D1844B1187C6748A23B6CD21DF678AD"
                     target="_blank">
-                    <i style="padding-left:7px" class="fas fa-stroopwafel fa-3x"></i>
+                    <i class="fas fa-stroopwafel fa-3x"></i>
                 </a>
             </div>
             <div class="flex">
                 <a href="https://support.wdf.sap.corp/sap(bD1lbiZjPTAwMSZkPW1pbiZpPTE=)/bc/bsp/sap/crm_ui_start/default.htm?saprole=ZCSSNEXTPROC"
                     target="_blank">
-                    <i style="padding-left:10px" class="fas fa-bug fa-3x"></i>
+                    <i class="fas fa-bug fa-3x"></i>
                 </a>
             </div>
         </div>
     </div>
     <script src="popup.js"></script>
+
 </body>
 
 </html>
