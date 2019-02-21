@@ -95,31 +95,45 @@
             margin: 2px;
             color: white;
         }
+
         .white {
             color: #2f5876;
-            background-color:white;
-            border:1px solid black;
+            background-color: white;
+            border: 1px solid black;
         }
+
         .footers {
             font-size: 13px;
         }
 
+        .hover :hover {
+            background-color: rgb(237, 225, 225);
+
+        }
     </style>
 </head>
 
 <body>
     <h1>
-            <a href="popup.html"><p class="logo" style="padding-bottom: 0px;">Program Management <span style="float:right;font-weight: 700; padding-right:10px">1902A</span></p></a>
+        <a href="popup.html">
+            <p class="logo" style="padding-bottom: 0px;">Program Management <span
+                    style="float:right;font-weight: 700; padding-right:10px">1902A</span></p>
+        </a>
 
     </h1>
     <div class="d-flex flex-column-reverse bd-highlight">
-       <div class="p-2 bd-highlight center white">Production<br><span class="footers">Version:3.79.1 branch:rel-3.79
-        </span></div>
-       <div class="p-2 bd-highlight center white">Preview <br><span class="footers">Version:3.79.0 branch:rel-3.79
-        </span></div>
-       <div class="p-2 bd-highlight center white">Release Candidate<br><span class="footers">Version:3.80.0 branch:rel-3.80
-        </span></div>
-       <div class="p-2 bd-highlight center">Neo Delivery</div>
+        <div class="hover">
+            <div class="p-2 bd-highlight center white">Production<br><span class="footers">Version:3.79.1
+                    branch:rel-3.79
+                </span></div>
+            <div class="p-2 bd-highlight center white">Preview <br><span class="footers">Version:3.79.0 branch:rel-3.79
+                </span></div>
+            <div class="p-2 bd-highlight center white">Release Candidate<br><span class="footers">Version:3.80.0
+                    branch:rel-3.80
+                </span></div>
+        </div>
+
+        <div class="p-2 bd-highlight center">Neo Delivery</div>
     </div>
     <div>
         <p class="description" style="padding-left:10px">Timeline <span class="description"
@@ -154,7 +168,6 @@
             </div>
         </div>
     </div>
-    <script src="popup.js"></script>
 </body>
 
 </html>
