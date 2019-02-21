@@ -1,0 +1,947 @@
+// 20190221172858
+// https://sapjira.wdf.sap.corp/rest/api/latest/issue/EUXTEAMNILI-3040
+
+{
+  "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+  "id": "5593901",
+  "self": "https://sapjira.wdf.sap.corp/rest/api/latest/issue/5593901",
+  "key": "EUXTEAMNILI-3040",
+  "fields": {
+    "customfield_17142": null,
+    "customfield_19442": null,
+    "customfield_17141": null,
+    "customfield_19443": null,
+    "customfield_17140": null,
+    "customfield_10070": {
+      "self": "https://sapjira.wdf.sap.corp/rest/api/2/customFieldOption/10021",
+      "value": "No",
+      "id": "10021"
+    },
+    "customfield_17146": null,
+    "customfield_10071": {
+      "self": "https://sapjira.wdf.sap.corp/rest/api/2/customFieldOption/10022",
+      "value": "Yes",
+      "id": "10022"
+    },
+    "customfield_17145": null,
+    "customfield_13340": null,
+    "customfield_17144": null,
+    "customfield_19440": null,
+    "customfield_17143": null,
+    "customfield_19441": null,
+    "customfield_15246": null,
+    "customfield_11441": null,
+    "customfield_15640": null,
+    "fixVersions": [
+      {
+        "self": "https://sapjira.wdf.sap.corp/rest/api/2/version/201792",
+        "id": "201792",
+        "description": "",
+        "name": "1813B",
+        "archived": false,
+        "released": false
+      },
+      {
+        "self": "https://sapjira.wdf.sap.corp/rest/api/2/version/201793",
+        "id": "201793",
+        "description": "",
+        "name": "1901A",
+        "archived": false,
+        "released": false
+      },
+      {
+        "self": "https://sapjira.wdf.sap.corp/rest/api/2/version/201794",
+        "id": "201794",
+        "description": "",
+        "name": "1901B",
+        "archived": false,
+        "released": false
+      },
+      {
+        "self": "https://sapjira.wdf.sap.corp/rest/api/2/version/204270",
+        "id": "204270",
+        "name": "1813C",
+        "archived": false,
+        "released": false
+      }
+    ],
+    "customfield_11440": null,
+    "customfield_10111": null,
+    "resolution": {
+      "self": "https://sapjira.wdf.sap.corp/rest/api/2/resolution/1",
+      "id": "1",
+      "description": "A fix for this issue is checked into the tree and tested.",
+      "name": "Fixed"
+    },
+    "customfield_11841": null,
+    "customfield_19040": null,
+    "customfield_19041": null,
+    "customfield_16041": null,
+    "lastViewed": "2019-02-20T17:55:31.659+0000",
+    "customfield_16040": null,
+    "customfield_10180": null,
+    "customfield_16442": null,
+    "customfield_10060": null,
+    "customfield_16045": null,
+    "customfield_16441": null,
+    "customfield_10061": "2016-03-10",
+    "customfield_16044": null,
+    "customfield_16440": null,
+    "customfield_18341": null,
+    "customfield_16842": null,
+    "customfield_16841": null,
+    "customfield_10340": "9223372036854775807",
+    "customfield_16444": null,
+    "customfield_16840": null,
+    "customfield_18748": null,
+    "customfield_10220": {
+      "self": "https://sapjira.wdf.sap.corp/rest/api/2/customFieldOption/10140",
+      "value": "default",
+      "id": "10140"
+    },
+    "customfield_16443": null,
+    "priority": {
+      "self": "https://sapjira.wdf.sap.corp/rest/api/2/priority/2",
+      "iconUrl": "https://sapjira.wdf.sap.corp/images/icons/priorities/critical.svg",
+      "name": "High",
+      "id": "2"
+    },
+    "customfield_10221": null,
+    "customfield_10861": null,
+    "labels": [
+      
+    ],
+    "customfield_14941": null,
+    "customfield_10852": null,
+    "customfield_10853": null,
+    "customfield_10854": null,
+    "customfield_10855": null,
+    "customfield_10856": null,
+    "aggregatetimeoriginalestimate": null,
+    "timeestimate": null,
+    "versions": [
+      
+    ],
+    "customfield_10857": null,
+    "issuelinks": [
+      {
+        "id": "5975857",
+        "self": "https://sapjira.wdf.sap.corp/rest/api/2/issueLink/5975857",
+        "type": {
+          "id": "10010",
+          "name": "Dependencies",
+          "inward": "has dependency",
+          "outward": "depends on",
+          "self": "https://sapjira.wdf.sap.corp/rest/api/2/issueLinkType/10010"
+        },
+        "outwardIssue": {
+          "id": "5279390",
+          "key": "EUXTEAMNILI-2820",
+          "self": "https://sapjira.wdf.sap.corp/rest/api/2/issue/5279390",
+          "fields": {
+            "summary": " [CF] Integrate Assets micro-service to Client in RT",
+            "status": {
+              "self": "https://sapjira.wdf.sap.corp/rest/api/2/status/10004",
+              "description": "This issue has been successfully completed by the team.",
+              "iconUrl": "https://sapjira.wdf.sap.corp/images/icons/statuses/resolved.png",
+              "name": "Completed",
+              "id": "10004",
+              "statusCategory": {
+                "self": "https://sapjira.wdf.sap.corp/rest/api/2/statuscategory/3",
+                "id": 3,
+                "key": "done",
+                "colorName": "green",
+                "name": "Done"
+              }
+            },
+            "priority": {
+              "self": "https://sapjira.wdf.sap.corp/rest/api/2/priority/2",
+              "iconUrl": "https://sapjira.wdf.sap.corp/images/icons/priorities/critical.svg",
+              "name": "High",
+              "id": "2"
+            },
+            "issuetype": {
+              "self": "https://sapjira.wdf.sap.corp/rest/api/2/issuetype/6",
+              "id": "6",
+              "description": "Backlog Item",
+              "iconUrl": "https://sapjira.wdf.sap.corp/images/icons/issuetypes/requirement.png",
+              "name": "Backlog Item",
+              "subtask": false
+            }
+          }
+        }
+      },
+      {
+        "id": "5975858",
+        "self": "https://sapjira.wdf.sap.corp/rest/api/2/issueLink/5975858",
+        "type": {
+          "id": "10010",
+          "name": "Dependencies",
+          "inward": "has dependency",
+          "outward": "depends on",
+          "self": "https://sapjira.wdf.sap.corp/rest/api/2/issueLinkType/10010"
+        },
+        "outwardIssue": {
+          "id": "5460662",
+          "key": "EUXTEAMNILI-2966",
+          "self": "https://sapjira.wdf.sap.corp/rest/api/2/issue/5460662",
+          "fields": {
+            "summary": "[CF] Convert client side services from CDM 2.0 to 3.0",
+            "status": {
+              "self": "https://sapjira.wdf.sap.corp/rest/api/2/status/10004",
+              "description": "This issue has been successfully completed by the team.",
+              "iconUrl": "https://sapjira.wdf.sap.corp/images/icons/statuses/resolved.png",
+              "name": "Completed",
+              "id": "10004",
+              "statusCategory": {
+                "self": "https://sapjira.wdf.sap.corp/rest/api/2/statuscategory/3",
+                "id": 3,
+                "key": "done",
+                "colorName": "green",
+                "name": "Done"
+              }
+            },
+            "priority": {
+              "self": "https://sapjira.wdf.sap.corp/rest/api/2/priority/2",
+              "iconUrl": "https://sapjira.wdf.sap.corp/images/icons/priorities/critical.svg",
+              "name": "High",
+              "id": "2"
+            },
+            "issuetype": {
+              "self": "https://sapjira.wdf.sap.corp/rest/api/2/issuetype/6",
+              "id": "6",
+              "description": "Backlog Item",
+              "iconUrl": "https://sapjira.wdf.sap.corp/images/icons/issuetypes/requirement.png",
+              "name": "Backlog Item",
+              "subtask": false
+            }
+          }
+        }
+      },
+      {
+        "id": "5975856",
+        "self": "https://sapjira.wdf.sap.corp/rest/api/2/issueLink/5975856",
+        "type": {
+          "id": "10002",
+          "name": "parent-child",
+          "inward": "child-of",
+          "outward": "parent-of",
+          "self": "https://sapjira.wdf.sap.corp/rest/api/2/issueLinkType/10002"
+        },
+        "inwardIssue": {
+          "id": "4665638",
+          "key": "CENTRALSTATION-491",
+          "self": "https://sapjira.wdf.sap.corp/rest/api/2/issue/4665638",
+          "fields": {
+            "summary": "Freestyle sites on SAP CP CF",
+            "status": {
+              "self": "https://sapjira.wdf.sap.corp/rest/api/2/status/10004",
+              "description": "This issue has been successfully completed by the team.",
+              "iconUrl": "https://sapjira.wdf.sap.corp/images/icons/statuses/resolved.png",
+              "name": "Completed",
+              "id": "10004",
+              "statusCategory": {
+                "self": "https://sapjira.wdf.sap.corp/rest/api/2/statuscategory/3",
+                "id": 3,
+                "key": "done",
+                "colorName": "green",
+                "name": "Done"
+              }
+            },
+            "priority": {
+              "self": "https://sapjira.wdf.sap.corp/rest/api/2/priority/2",
+              "iconUrl": "https://sapjira.wdf.sap.corp/images/icons/priorities/critical.svg",
+              "name": "High",
+              "id": "2"
+            },
+            "issuetype": {
+              "self": "https://sapjira.wdf.sap.corp/rest/api/2/issuetype/7",
+              "id": "7",
+              "description": "Created by JIRA Software - do not edit or delete. Issue type for a big user story that needs to be broken down.",
+              "iconUrl": "https://sapjira.wdf.sap.corp/images/icons/issuetypes/documentation.png",
+              "name": "Epic",
+              "subtask": false
+            }
+          }
+        }
+      }
+    ],
+    "assignee": {
+      "self": "https://sapjira.wdf.sap.corp/rest/api/2/user?username=I307335",
+      "name": "I307335",
+      "key": "i307335",
+      "emailAddress": "mahmoud.taye@sap.com",
+      "avatarUrls": {
+        "48x48": "https://sapjira.wdf.sap.corp/secure/useravatar?avatarId=10432",
+        "24x24": "https://sapjira.wdf.sap.corp/secure/useravatar?size=small&avatarId=10432",
+        "16x16": "https://sapjira.wdf.sap.corp/secure/useravatar?size=xsmall&avatarId=10432",
+        "32x32": "https://sapjira.wdf.sap.corp/secure/useravatar?size=medium&avatarId=10432"
+      },
+      "displayName": "Taye, Mahmoud",
+      "active": true,
+      "timeZone": "Etc/UTC"
+    },
+    "status": {
+      "self": "https://sapjira.wdf.sap.corp/rest/api/2/status/10004",
+      "description": "This issue has been successfully completed by the team.",
+      "iconUrl": "https://sapjira.wdf.sap.corp/images/icons/statuses/resolved.png",
+      "name": "Completed",
+      "id": "10004",
+      "statusCategory": {
+        "self": "https://sapjira.wdf.sap.corp/rest/api/2/statuscategory/3",
+        "id": 3,
+        "key": "done",
+        "colorName": "green",
+        "name": "Done"
+      }
+    },
+    "components": [
+      
+    ],
+    "customfield_10290": null,
+    "customfield_10291": null,
+    "customfield_15340": null,
+    "customfield_10173": [
+      {
+        "self": "https://sapjira.wdf.sap.corp/rest/api/2/customFieldOption/19260",
+        "value": "Yes",
+        "id": "19260"
+      }
+    ],
+    "customfield_15741": null,
+    "customfield_11540": null,
+    "customfield_10210": "9223372036854775807",
+    "customfield_19942": null,
+    "customfield_10850": null,
+    "customfield_10851": null,
+    "customfield_10842": null,
+    "customfield_10843": null,
+    "customfield_10844": null,
+    "customfield_10845": null,
+    "aggregatetimeestimate": 0,
+    "customfield_10846": null,
+    "customfield_10847": {
+      "self": "https://sapjira.wdf.sap.corp/rest/api/2/customFieldOption/10960",
+      "value": "Internal",
+      "id": "10960"
+    },
+    "customfield_10848": null,
+    "customfield_10849": null,
+    "customfield_19140": null,
+    "customfield_16141": null,
+    "customfield_16140": null,
+    "customfield_18442": null,
+    "creator": {
+      "self": "https://sapjira.wdf.sap.corp/rest/api/2/user?username=I047059",
+      "name": "I047059",
+      "key": "i047059",
+      "emailAddress": "noam.gilady@sap.com",
+      "avatarUrls": {
+        "48x48": "https://sapjira.wdf.sap.corp/secure/useravatar?ownerId=i047059&avatarId=52418",
+        "24x24": "https://sapjira.wdf.sap.corp/secure/useravatar?size=small&ownerId=i047059&avatarId=52418",
+        "16x16": "https://sapjira.wdf.sap.corp/secure/useravatar?size=xsmall&ownerId=i047059&avatarId=52418",
+        "32x32": "https://sapjira.wdf.sap.corp/secure/useravatar?size=medium&ownerId=i047059&avatarId=52418"
+      },
+      "displayName": "Gilady, Noam",
+      "active": true,
+      "timeZone": "Etc/UTC"
+    },
+    "customfield_18840": null,
+    "subtasks": [
+      {
+        "id": "5617922",
+        "key": "EUXTEAMNILI-3099",
+        "self": "https://sapjira.wdf.sap.corp/rest/api/2/issue/5617922",
+        "fields": {
+          "summary": "build",
+          "status": {
+            "self": "https://sapjira.wdf.sap.corp/rest/api/2/status/10003",
+            "description": "The Task is considered finished. Tasks which are closed can be reopened.",
+            "iconUrl": "https://sapjira.wdf.sap.corp/images/icons/statuses/closed.png",
+            "name": "Done",
+            "id": "10003",
+            "statusCategory": {
+              "self": "https://sapjira.wdf.sap.corp/rest/api/2/statuscategory/3",
+              "id": 3,
+              "key": "done",
+              "colorName": "green",
+              "name": "Done"
+            }
+          },
+          "priority": {
+            "self": "https://sapjira.wdf.sap.corp/rest/api/2/priority/3",
+            "iconUrl": "https://sapjira.wdf.sap.corp/images/icons/priorities/major.svg",
+            "name": "Medium",
+            "id": "3"
+          },
+          "issuetype": {
+            "self": "https://sapjira.wdf.sap.corp/rest/api/2/issuetype/5",
+            "id": "5",
+            "description": "Task",
+            "iconUrl": "https://sapjira.wdf.sap.corp/secure/viewavatar?size=xsmall&avatarId=27826&avatarType=issuetype",
+            "name": "Task",
+            "subtask": true,
+            "avatarId": 27826
+          }
+        }
+      },
+      {
+        "id": "5617923",
+        "key": "EUXTEAMNILI-3100",
+        "self": "https://sapjira.wdf.sap.corp/rest/api/2/issue/5617923",
+        "fields": {
+          "summary": "add build scripts to package.json",
+          "status": {
+            "self": "https://sapjira.wdf.sap.corp/rest/api/2/status/10003",
+            "description": "The Task is considered finished. Tasks which are closed can be reopened.",
+            "iconUrl": "https://sapjira.wdf.sap.corp/images/icons/statuses/closed.png",
+            "name": "Done",
+            "id": "10003",
+            "statusCategory": {
+              "self": "https://sapjira.wdf.sap.corp/rest/api/2/statuscategory/3",
+              "id": 3,
+              "key": "done",
+              "colorName": "green",
+              "name": "Done"
+            }
+          },
+          "priority": {
+            "self": "https://sapjira.wdf.sap.corp/rest/api/2/priority/3",
+            "iconUrl": "https://sapjira.wdf.sap.corp/images/icons/priorities/major.svg",
+            "name": "Medium",
+            "id": "3"
+          },
+          "issuetype": {
+            "self": "https://sapjira.wdf.sap.corp/rest/api/2/issuetype/5",
+            "id": "5",
+            "description": "Task",
+            "iconUrl": "https://sapjira.wdf.sap.corp/secure/viewavatar?size=xsmall&avatarId=27826&avatarType=issuetype",
+            "name": "Task",
+            "subtask": true,
+            "avatarId": 27826
+          }
+        }
+      },
+      {
+        "id": "5654093",
+        "key": "EUXTEAMNILI-3108",
+        "self": "https://sapjira.wdf.sap.corp/rest/api/2/issue/5654093",
+        "fields": {
+          "summary": "freestyle-dt/infra minification(preload-library.js)",
+          "status": {
+            "self": "https://sapjira.wdf.sap.corp/rest/api/2/status/10003",
+            "description": "The Task is considered finished. Tasks which are closed can be reopened.",
+            "iconUrl": "https://sapjira.wdf.sap.corp/images/icons/statuses/closed.png",
+            "name": "Done",
+            "id": "10003",
+            "statusCategory": {
+              "self": "https://sapjira.wdf.sap.corp/rest/api/2/statuscategory/3",
+              "id": 3,
+              "key": "done",
+              "colorName": "green",
+              "name": "Done"
+            }
+          },
+          "priority": {
+            "self": "https://sapjira.wdf.sap.corp/rest/api/2/priority/3",
+            "iconUrl": "https://sapjira.wdf.sap.corp/images/icons/priorities/major.svg",
+            "name": "Medium",
+            "id": "3"
+          },
+          "issuetype": {
+            "self": "https://sapjira.wdf.sap.corp/rest/api/2/issuetype/5",
+            "id": "5",
+            "description": "Task",
+            "iconUrl": "https://sapjira.wdf.sap.corp/secure/viewavatar?size=xsmall&avatarId=27826&avatarType=issuetype",
+            "name": "Task",
+            "subtask": true,
+            "avatarId": 27826
+          }
+        }
+      },
+      {
+        "id": "5654107",
+        "key": "EUXTEAMNILI-3109",
+        "self": "https://sapjira.wdf.sap.corp/rest/api/2/issue/5654107",
+        "fields": {
+          "summary": "pagePreview - minification (Component-preload.js)",
+          "status": {
+            "self": "https://sapjira.wdf.sap.corp/rest/api/2/status/10003",
+            "description": "The Task is considered finished. Tasks which are closed can be reopened.",
+            "iconUrl": "https://sapjira.wdf.sap.corp/images/icons/statuses/closed.png",
+            "name": "Done",
+            "id": "10003",
+            "statusCategory": {
+              "self": "https://sapjira.wdf.sap.corp/rest/api/2/statuscategory/3",
+              "id": 3,
+              "key": "done",
+              "colorName": "green",
+              "name": "Done"
+            }
+          },
+          "priority": {
+            "self": "https://sapjira.wdf.sap.corp/rest/api/2/priority/3",
+            "iconUrl": "https://sapjira.wdf.sap.corp/images/icons/priorities/major.svg",
+            "name": "Medium",
+            "id": "3"
+          },
+          "issuetype": {
+            "self": "https://sapjira.wdf.sap.corp/rest/api/2/issuetype/5",
+            "id": "5",
+            "description": "Task",
+            "iconUrl": "https://sapjira.wdf.sap.corp/secure/viewavatar?size=xsmall&avatarId=27826&avatarType=issuetype",
+            "name": "Task",
+            "subtask": true,
+            "avatarId": 27826
+          }
+        }
+      },
+      {
+        "id": "5654662",
+        "key": "EUXTEAMNILI-3113",
+        "self": "https://sapjira.wdf.sap.corp/rest/api/2/issue/5654662",
+        "fields": {
+          "summary": "cfDesignInfra minification(preload-library.js)",
+          "status": {
+            "self": "https://sapjira.wdf.sap.corp/rest/api/2/status/10003",
+            "description": "The Task is considered finished. Tasks which are closed can be reopened.",
+            "iconUrl": "https://sapjira.wdf.sap.corp/images/icons/statuses/closed.png",
+            "name": "Done",
+            "id": "10003",
+            "statusCategory": {
+              "self": "https://sapjira.wdf.sap.corp/rest/api/2/statuscategory/3",
+              "id": 3,
+              "key": "done",
+              "colorName": "green",
+              "name": "Done"
+            }
+          },
+          "priority": {
+            "self": "https://sapjira.wdf.sap.corp/rest/api/2/priority/3",
+            "iconUrl": "https://sapjira.wdf.sap.corp/images/icons/priorities/major.svg",
+            "name": "Medium",
+            "id": "3"
+          },
+          "issuetype": {
+            "self": "https://sapjira.wdf.sap.corp/rest/api/2/issuetype/5",
+            "id": "5",
+            "description": "Task",
+            "iconUrl": "https://sapjira.wdf.sap.corp/secure/viewavatar?size=xsmall&avatarId=27826&avatarType=issuetype",
+            "name": "Task",
+            "subtask": true,
+            "avatarId": 27826
+          }
+        }
+      },
+      {
+        "id": "5654665",
+        "key": "EUXTEAMNILI-3114",
+        "self": "https://sapjira.wdf.sap.corp/rest/api/2/issue/5654665",
+        "fields": {
+          "summary": "menuEditor - minification (Component-preload.js)",
+          "status": {
+            "self": "https://sapjira.wdf.sap.corp/rest/api/2/status/10003",
+            "description": "The Task is considered finished. Tasks which are closed can be reopened.",
+            "iconUrl": "https://sapjira.wdf.sap.corp/images/icons/statuses/closed.png",
+            "name": "Done",
+            "id": "10003",
+            "statusCategory": {
+              "self": "https://sapjira.wdf.sap.corp/rest/api/2/statuscategory/3",
+              "id": 3,
+              "key": "done",
+              "colorName": "green",
+              "name": "Done"
+            }
+          },
+          "priority": {
+            "self": "https://sapjira.wdf.sap.corp/rest/api/2/priority/3",
+            "iconUrl": "https://sapjira.wdf.sap.corp/images/icons/priorities/major.svg",
+            "name": "Medium",
+            "id": "3"
+          },
+          "issuetype": {
+            "self": "https://sapjira.wdf.sap.corp/rest/api/2/issuetype/5",
+            "id": "5",
+            "description": "Task",
+            "iconUrl": "https://sapjira.wdf.sap.corp/secure/viewavatar?size=xsmall&avatarId=27826&avatarType=issuetype",
+            "name": "Task",
+            "subtask": true,
+            "avatarId": 27826
+          }
+        }
+      },
+      {
+        "id": "5654667",
+        "key": "EUXTEAMNILI-3115",
+        "self": "https://sapjira.wdf.sap.corp/rest/api/2/issue/5654667",
+        "fields": {
+          "summary": "pagesEditor- minification (Component-preload.js)",
+          "status": {
+            "self": "https://sapjira.wdf.sap.corp/rest/api/2/status/10003",
+            "description": "The Task is considered finished. Tasks which are closed can be reopened.",
+            "iconUrl": "https://sapjira.wdf.sap.corp/images/icons/statuses/closed.png",
+            "name": "Done",
+            "id": "10003",
+            "statusCategory": {
+              "self": "https://sapjira.wdf.sap.corp/rest/api/2/statuscategory/3",
+              "id": 3,
+              "key": "done",
+              "colorName": "green",
+              "name": "Done"
+            }
+          },
+          "priority": {
+            "self": "https://sapjira.wdf.sap.corp/rest/api/2/priority/3",
+            "iconUrl": "https://sapjira.wdf.sap.corp/images/icons/priorities/major.svg",
+            "name": "Medium",
+            "id": "3"
+          },
+          "issuetype": {
+            "self": "https://sapjira.wdf.sap.corp/rest/api/2/issuetype/5",
+            "id": "5",
+            "description": "Task",
+            "iconUrl": "https://sapjira.wdf.sap.corp/secure/viewavatar?size=xsmall&avatarId=27826&avatarType=issuetype",
+            "name": "Task",
+            "subtask": true,
+            "avatarId": 27826
+          }
+        }
+      },
+      {
+        "id": "5654971",
+        "key": "EUXTEAMNILI-3116",
+        "self": "https://sapjira.wdf.sap.corp/rest/api/2/issue/5654971",
+        "fields": {
+          "summary": "contentUnit- minification (Component-preload.js)",
+          "status": {
+            "self": "https://sapjira.wdf.sap.corp/rest/api/2/status/10003",
+            "description": "The Task is considered finished. Tasks which are closed can be reopened.",
+            "iconUrl": "https://sapjira.wdf.sap.corp/images/icons/statuses/closed.png",
+            "name": "Done",
+            "id": "10003",
+            "statusCategory": {
+              "self": "https://sapjira.wdf.sap.corp/rest/api/2/statuscategory/3",
+              "id": 3,
+              "key": "done",
+              "colorName": "green",
+              "name": "Done"
+            }
+          },
+          "priority": {
+            "self": "https://sapjira.wdf.sap.corp/rest/api/2/priority/3",
+            "iconUrl": "https://sapjira.wdf.sap.corp/images/icons/priorities/major.svg",
+            "name": "Medium",
+            "id": "3"
+          },
+          "issuetype": {
+            "self": "https://sapjira.wdf.sap.corp/rest/api/2/issuetype/5",
+            "id": "5",
+            "description": "Task",
+            "iconUrl": "https://sapjira.wdf.sap.corp/secure/viewavatar?size=xsmall&avatarId=27826&avatarType=issuetype",
+            "name": "Task",
+            "subtask": true,
+            "avatarId": 27826
+          }
+        }
+      },
+      {
+        "id": "5762700",
+        "key": "EUXTEAMNILI-3168",
+        "self": "https://sapjira.wdf.sap.corp/rest/api/2/issue/5762700",
+        "fields": {
+          "summary": "Test scope",
+          "status": {
+            "self": "https://sapjira.wdf.sap.corp/rest/api/2/status/10058",
+            "description": "Test Case Tested OK",
+            "iconUrl": "https://sapjira.wdf.sap.corp/images/icons/green_check.gif",
+            "name": "Tested OK",
+            "id": "10058",
+            "statusCategory": {
+              "self": "https://sapjira.wdf.sap.corp/rest/api/2/statuscategory/4",
+              "id": 4,
+              "key": "indeterminate",
+              "colorName": "yellow",
+              "name": "In Progress"
+            }
+          },
+          "priority": {
+            "self": "https://sapjira.wdf.sap.corp/rest/api/2/priority/3",
+            "iconUrl": "https://sapjira.wdf.sap.corp/images/icons/priorities/major.svg",
+            "name": "Medium",
+            "id": "3"
+          },
+          "issuetype": {
+            "self": "https://sapjira.wdf.sap.corp/rest/api/2/issuetype/32",
+            "id": "32",
+            "description": "Test Task for BLI",
+            "iconUrl": "https://sapjira.wdf.sap.corp/images/icons/issuetypes/exclamation.png",
+            "name": "Test",
+            "subtask": true
+          }
+        }
+      },
+      {
+        "id": "5762740",
+        "key": "EUXTEAMNILI-3169",
+        "self": "https://sapjira.wdf.sap.corp/rest/api/2/issue/5762740",
+        "fields": {
+          "summary": "update ReadMe",
+          "status": {
+            "self": "https://sapjira.wdf.sap.corp/rest/api/2/status/10003",
+            "description": "The Task is considered finished. Tasks which are closed can be reopened.",
+            "iconUrl": "https://sapjira.wdf.sap.corp/images/icons/statuses/closed.png",
+            "name": "Done",
+            "id": "10003",
+            "statusCategory": {
+              "self": "https://sapjira.wdf.sap.corp/rest/api/2/statuscategory/3",
+              "id": 3,
+              "key": "done",
+              "colorName": "green",
+              "name": "Done"
+            }
+          },
+          "priority": {
+            "self": "https://sapjira.wdf.sap.corp/rest/api/2/priority/3",
+            "iconUrl": "https://sapjira.wdf.sap.corp/images/icons/priorities/major.svg",
+            "name": "Medium",
+            "id": "3"
+          },
+          "issuetype": {
+            "self": "https://sapjira.wdf.sap.corp/rest/api/2/issuetype/5",
+            "id": "5",
+            "description": "Task",
+            "iconUrl": "https://sapjira.wdf.sap.corp/secure/viewavatar?size=xsmall&avatarId=27826&avatarType=issuetype",
+            "name": "Task",
+            "subtask": true,
+            "avatarId": 27826
+          }
+        }
+      },
+      {
+        "id": "5762745",
+        "key": "EUXTEAMNILI-3170",
+        "self": "https://sapjira.wdf.sap.corp/rest/api/2/issue/5762745",
+        "fields": {
+          "summary": "clean grunt file",
+          "status": {
+            "self": "https://sapjira.wdf.sap.corp/rest/api/2/status/10005",
+            "description": "This Issue is not relevant any more. ",
+            "iconUrl": "https://sapjira.wdf.sap.corp/images/icons/statuses/trash.png",
+            "name": "Inactive",
+            "id": "10005",
+            "statusCategory": {
+              "self": "https://sapjira.wdf.sap.corp/rest/api/2/statuscategory/3",
+              "id": 3,
+              "key": "done",
+              "colorName": "green",
+              "name": "Done"
+            }
+          },
+          "priority": {
+            "self": "https://sapjira.wdf.sap.corp/rest/api/2/priority/3",
+            "iconUrl": "https://sapjira.wdf.sap.corp/images/icons/priorities/major.svg",
+            "name": "Medium",
+            "id": "3"
+          },
+          "issuetype": {
+            "self": "https://sapjira.wdf.sap.corp/rest/api/2/issuetype/5",
+            "id": "5",
+            "description": "Task",
+            "iconUrl": "https://sapjira.wdf.sap.corp/secure/viewavatar?size=xsmall&avatarId=27826&avatarType=issuetype",
+            "name": "Task",
+            "subtask": true,
+            "avatarId": 27826
+          }
+        }
+      }
+    ],
+    "customfield_10161": null,
+    "customfield_16940": null,
+    "reporter": {
+      "self": "https://sapjira.wdf.sap.corp/rest/api/2/user?username=I047059",
+      "name": "I047059",
+      "key": "i047059",
+      "emailAddress": "noam.gilady@sap.com",
+      "avatarUrls": {
+        "48x48": "https://sapjira.wdf.sap.corp/secure/useravatar?ownerId=i047059&avatarId=52418",
+        "24x24": "https://sapjira.wdf.sap.corp/secure/useravatar?size=small&ownerId=i047059&avatarId=52418",
+        "16x16": "https://sapjira.wdf.sap.corp/secure/useravatar?size=xsmall&ownerId=i047059&avatarId=52418",
+        "32x32": "https://sapjira.wdf.sap.corp/secure/useravatar?size=medium&ownerId=i047059&avatarId=52418"
+      },
+      "displayName": "Gilady, Noam",
+      "active": true,
+      "timeZone": "Etc/UTC"
+    },
+    "aggregateprogress": {
+      "progress": 0,
+      "total": 0
+    },
+    "customfield_10320": null,
+    "customfield_12740": [
+      "com.atlassian.greenhopper.service.sprint.Sprint@33eafa49[id=65632,rapidViewId=10400,state=ACTIVE,name=2019.T01,startDate=2019-01-20T07:33:00.000Z,endDate=2019-02-28T19:33:00.000Z,completeDate=<null>,sequence=65632,goal=]"
+    ],
+    "customfield_10038": null,
+    "customfield_15848": null,
+    "customfield_10039": "false",
+    "customfield_15846": null,
+    "customfield_15847": null,
+    "progress": {
+      "progress": 0,
+      "total": 0
+    },
+    "votes": {
+      "self": "https://sapjira.wdf.sap.corp/rest/api/2/issue/EUXTEAMNILI-3040/votes",
+      "votes": 0,
+      "hasVoted": false
+    },
+    "worklog": {
+      "startAt": 0,
+      "maxResults": 20,
+      "total": 0,
+      "worklogs": [
+        
+      ]
+    },
+    "issuetype": {
+      "self": "https://sapjira.wdf.sap.corp/rest/api/2/issuetype/6",
+      "id": "6",
+      "description": "Backlog Item",
+      "iconUrl": "https://sapjira.wdf.sap.corp/images/icons/issuetypes/requirement.png",
+      "name": "Backlog Item",
+      "subtask": false
+    },
+    "customfield_15440": null,
+    "customfield_15441": null,
+    "customfield_10270": "9223372036854775807",
+    "timespent": null,
+    "customfield_10271": "9223372036854775807",
+    "customfield_15841": null,
+    "project": {
+      "self": "https://sapjira.wdf.sap.corp/rest/api/2/project/31032",
+      "id": "31032",
+      "key": "EUXTEAMNILI",
+      "name": "EUX-TEAM-NILI",
+      "avatarUrls": {
+        "48x48": "https://sapjira.wdf.sap.corp/secure/projectavatar?pid=31032&avatarId=10011",
+        "24x24": "https://sapjira.wdf.sap.corp/secure/projectavatar?size=small&pid=31032&avatarId=10011",
+        "16x16": "https://sapjira.wdf.sap.corp/secure/projectavatar?size=xsmall&pid=31032&avatarId=10011",
+        "32x32": "https://sapjira.wdf.sap.corp/secure/projectavatar?size=medium&pid=31032&avatarId=10011"
+      }
+    },
+    "customfield_15844": null,
+    "aggregatetimespent": null,
+    "customfield_11640": null,
+    "customfield_15845": null,
+    "customfield_10036": null,
+    "customfield_10037": null,
+    "customfield_15843": null,
+    "customfield_10941": null,
+    "customfield_10942": null,
+    "customfield_10943": null,
+    "customfield_10944": null,
+    "customfield_10945": null,
+    "customfield_10946": {
+      "self": "https://sapjira.wdf.sap.corp/rest/api/2/customFieldOption/11185",
+      "value": "Not Set",
+      "id": "11185"
+    },
+    "resolutiondate": "2019-02-18T10:52:22.000+0000",
+    "customfield_10947": {
+      "self": "https://sapjira.wdf.sap.corp/rest/api/2/customFieldOption/11190",
+      "value": "Yes",
+      "id": "11190"
+    },
+    "customfield_10948": null,
+    "workratio": -1,
+    "customfield_16240": null,
+    "watches": {
+      "self": "https://sapjira.wdf.sap.corp/rest/api/2/issue/EUXTEAMNILI-3040/watchers",
+      "watchCount": 0,
+      "isWatching": false
+    },
+    "customfield_20341": null,
+    "customfield_16640": null,
+    "created": "2018-12-20T13:45:08.000+0000",
+    "customfield_10260": null,
+    "customfield_16241": null,
+    "customfield_10140": "2016-03-10",
+    "customfield_18947": null,
+    "customfield_10300": null,
+    "updated": "2019-02-19T13:12:51.000+0000",
+    "customfield_15140": null,
+    "customfield_19740": null,
+    "customfield_15144": "1|i0ebo1:",
+    "timeoriginalestimate": null,
+    "customfield_10096": null,
+    "customfield_11340": "2018-11-09T22:19:28.000+0000",
+    "description": "h2. Motivation:\r\n * To comply with build process of other deliverables build process\r\n\r\nh2. Scope:\r\n * As part of [Eng Driven] Build client side repository BLI, we Implement the following processes for client-side repositories:\r\n ** Static code checks – ESLint\r\n ** Tests (Qunit, Mocka) – karma\r\n ** Build (Bundling and Minification) - UI5 Build and Development Tooling\r\n ** Utilizing Istanbul for Tests Coverage\r\n * This is implemented for:\r\n ** Infra\r\n ** ContentManager\r\n ** Site-directory\r\n * We need to handle it in pour projects (freestyle-dt, cfDesignInfra etc.) --> [~I327115] can provide guidelines and support for implementing the above.\r\n\r\nh2. InfoDev:\r\n * NA\r\n\r\nh2. UX:\r\n * NA\r\n\r\nh2. Acceptance Criteria:\r\n * Errors are working as expected on the different failures scenarios\r\n * Test Automation\r\n\r\nh2. Definition of Done:\r\n|Item|Done/Not Done/NA|\r\n|1. *Mini-design* was written and reviewed (including security aspects review by security angel)|NA|\r\n|2. *Full Test Scope* was written, reviewed and executed by the team; 0 VH/High, Up to 3 Medium bugs| Done|\r\n|3. *Automated tests* were written, reviewed and executed| NA|\r\n|4. *Code review* was done and high priority issues were fixed| Done|\r\n|5. All *code was merged* to dev and QOS is green (including green Fortify, checkmarx , AppScan, and Sonar)| Done|\r\n|6. *UX design* and graphics according to UX spec were applied and reviewed| NA|\r\n|7. *Strings* (UI Strings, public API names, java docs) were reviewed by info dev and implemented by the team and are translatable| NA|\r\n|8. *Performance* tests were executed and meets KPIs| Done|\r\n|9. *Documentation* – HO to info dev was done| NA|\r\n|10. *Open sources* were approved , if relevant| NA|\r\n|11. *Usage Analytics* – usage reporting was added according to PO definition| NA|\r\n|12. *Security* – code is safe and GDPR compliant|Done|\r\nh2. End Sprint Status:\r\n\r\n{Done/Not Done}",
+    "customfield_10130": "2016-03-10",
+    "customfield_15940": null,
+    "customfield_10131": "2016-03-10",
+    "customfield_13641": {
+      "self": "https://sapjira.wdf.sap.corp/rest/api/2/customFieldOption/15567",
+      "value": "Other",
+      "id": "15567"
+    },
+    "customfield_10011": null,
+    "customfield_10013": 2.0,
+    "customfield_10014": null,
+    "timetracking": {
+      
+    },
+    "customfield_10005": null,
+    "customfield_10006": {
+      "self": "https://sapjira.wdf.sap.corp/rest/api/2/customFieldOption/10016",
+      "value": "open",
+      "id": "10016"
+    },
+    "customfield_10248": null,
+    "customfield_10008": "Nili",
+    "attachment": [
+      
+    ],
+    "summary": "[CF] Eng Driven - Build client side projects for freestyle ",
+    "customfield_14040": {
+      "self": "https://sapjira.wdf.sap.corp/rest/api/2/customFieldOption/16265",
+      "value": "initial",
+      "id": "16265"
+    },
+    "customfield_20040": null,
+    "customfield_12140": null,
+    "customfield_16340": null,
+    "customfield_20041": null,
+    "customfield_10120": "CLOUDEUX:19970,EUXTEAMNILI:4280",
+    "customfield_10241": null,
+    "customfield_16740": null,
+    "customfield_10001": {
+      "self": "https://sapjira.wdf.sap.corp/rest/api/2/customFieldOption/10003",
+      "value": "ok",
+      "id": "10003"
+    },
+    "customfield_10002": {
+      "self": "https://sapjira.wdf.sap.corp/rest/api/2/customFieldOption/10006",
+      "value": "open",
+      "id": "10006"
+    },
+    "customfield_10003": {
+      "self": "https://sapjira.wdf.sap.corp/rest/api/2/customFieldOption/10010",
+      "value": "Yes",
+      "id": "10010"
+    },
+    "customfield_10004": {
+      "self": "https://sapjira.wdf.sap.corp/rest/api/2/customFieldOption/10013",
+      "value": "ok",
+      "id": "10013"
+    },
+    "environment": null,
+    "duedate": null,
+    "comment": {
+      "comments": [
+        
+      ],
+      "maxResults": 0,
+      "total": 0,
+      "startAt": 0
+    }
+  }
+}
